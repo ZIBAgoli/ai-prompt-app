@@ -1,16 +1,37 @@
-# React + Vite
+# 🤖 AI Content & Code Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, API-driven web application built with **React** and **Vite** that interfaces with external Large Language Model (LLM) APIs. Features robust asynchronous request handling, real-time response generation, error boundary state management, and a sleek dark-themed modern user interface.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-v18+-blue)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Asynchronous API Integration**: Clean `async/await` patterns using Axios to manage request lifecycles.
+- **Error Handling & Fallbacks**: Graceful error handling and loading indicators to ensure uninterrupted UI/UX.
+- **One-Click Copy**: Built-in response clipboard utility for easy text and code copying.
+- **Modern UI/UX**: Dark mode layout designed with custom CSS and Lucide React icons.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, Vite
+- **HTTP Client**: Axios
+- **Icons**: Lucide React
+- **API Integration**: REST API (Groq / OpenAI compatible endpoints)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher recommended)
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/ZIBAgoli/ai-prompt-app.git](https://github.com/ZIBAgoli/ai-prompt-app.git)
+cd ai-prompt-app
